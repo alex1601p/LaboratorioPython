@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 
 c = input("Ingrese un caracter: ")
-n = int(input("Ingrese la base de la piramide"))
+n = int(input("Ingrese la base de la piramide: "))
+x = 1
 print (" ")
-while (n>0):
-	print(c*n)
-	n-=1
+while (n>=x):
+	print(c*x)
+	x+=1
 print (" ")
